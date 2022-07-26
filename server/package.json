@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "react-app-1 server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/becca6758/react-app-1.git"
+  },
+  "author": "Rebecca Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/becca6758/react-app-1/issues"
+  },
+  "homepage": "https://github.com/becca6758/react-app-1#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.10.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
